@@ -12,7 +12,7 @@ const Newsletter = () => {
             </p>
           </div>
           <div className="w-full max-w-[534px]">
-            <form>
+            {/* <form>
               <div className="flex items-center gap-4">
                 <div className="w-full max-w-[395px]">
                   <input
@@ -27,7 +27,8 @@ const Newsletter = () => {
                   Subscribe
                 </button>
               </div>
-            </form>
+            </form> */}
+            <p className="text-sm text-white/60">Newsletter subscription disabled</p>
           </div>
         </div>
       </div>

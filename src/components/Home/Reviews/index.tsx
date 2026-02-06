@@ -55,15 +55,13 @@ const Reviews = () => {
         </div>
 
         <div
-          className={`pointer-events-none absolute inset-x-0 bottom-20 flex justify-center bg-linear-to-t from-dark pb-8 pt-32 ${
-            scrollContent ? "opacity-100!" : ""
-          } ${
+          className={`pointer-events-none absolute inset-x-0 bottom-20 flex justify-center bg-linear-to-t from-dark pb-8 pt-32 ${scrollContent ? "opacity-100!" : ""} ${
             showContent
               ? "-u-mt-52 sticky opacity-0 transition-opacity duration-300"
               : ""
           }`}
         >
-          <button
+          {/* <button
             type="button"
             onClick={() => setShowContent(!showContent)}
             className={`button-border-gradient hover:button-gradient-hover pointer-events-auto relative top-20 mx-auto -mt-7.5 flex rounded-lg px-4.5 py-3 text-sm font-semibold text-white duration-300 ease-in ${
@@ -71,7 +69,7 @@ const Reviews = () => {
             } ${scrollContent ? "translate-y-0" : ""}`}
           >
             {showContent ? "Okay, I get the point" : "Show more..."}
-          </button>
+          </button> */}
         </div>
       </div>
     </>
