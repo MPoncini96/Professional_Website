@@ -1,4 +1,4 @@
-import { imageBuilder } from "@/sanity/sanity-utils";
+// import { imageBuilder } from "@/sanity/sanity-utils";
 import { Blog } from "@/types/blog";
 import Image from "next/image";
 import Link from "next/link";
@@ -9,12 +9,12 @@ const SingleBlog = ({ blog }: { blog: Blog }) => {
   return (
     <div className='wow fadeInUp group relative isolate'>
       <div className='relative mb-6 h-[222px] w-full overflow-hidden rounded-xl'>
-        <Image
+        {/* <Image
           src={imageBuilder(mainImage).url()}
           alt={title}
           fill
           className='w-full scale-100 duration-500 ease-linear group-hover:scale-125'
-        />
+        /> */}
       </div>
 
       <div className='mb-4.5 flex flex-wrap items-center gap-2.5'>
