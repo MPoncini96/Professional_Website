@@ -54,7 +54,7 @@ const Support = () => {
           />
 
           {/* <!-- support form --> */}
-          <div className="form-box-gradient relative overflow-hidden rounded-[25px] p-6 sm:p-8 xl:p-15">
+          {/* <div className="form-box-gradient relative overflow-hidden rounded-[25px] p-6 sm:p-8 xl:p-15">
             <form
               action="https://formbold.com/s/unique_form_id"
               method="POST"
@@ -127,7 +127,8 @@ const Support = () => {
                 </div>
               </div>
             </form>
-          </div>
+          </div> */}
+          <p className="text-center text-white/60">Contact form disabled</p>
         </div>
       </div>
     </section>

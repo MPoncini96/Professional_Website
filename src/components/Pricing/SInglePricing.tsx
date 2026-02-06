@@ -101,7 +101,7 @@ const SinglePricing = ({ price }: any) => {
         </ul>
       )}
 
-      <button
+      {/* <button
         aria-label="Get the plan button"
         onClick={handleSubscription}
         className="pricing-button-gradient relative mt-11 flex w-full items-center justify-center gap-1.5 rounded-lg p-3 font-medium text-white transition-all duration-300 ease-in-out hover:shadow-button"
@@ -119,9 +119,9 @@ const SinglePricing = ({ price }: any) => {
             fill="white"
           />
         </svg>
-      </button>
+      </button> */}
 
-      <p className="mt-4 text-center text-sm">No extra hidden charge</p>
+      <p className="mt-4 text-center text-sm">Plan buttons disabled</p>
 
       {/* <!-- bg shapes --> */}
       <div className="pointer-events-none absolute inset-0 -z-10 overflow-hidden">
